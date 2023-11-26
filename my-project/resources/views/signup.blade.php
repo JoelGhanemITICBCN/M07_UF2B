@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>{{ $titol }}</h1>
-    <form action="../crear_usuari/index.php" method="POST">
+    <form action="../../app/Http/Controllers/Admin/AdminController.php" method="POST">
         <label>ID:</label>
         <input type="number" name="id" required><br><br>
 
