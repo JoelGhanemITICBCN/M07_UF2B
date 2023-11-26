@@ -8,7 +8,8 @@
 
 <h1>{{ $titol }}</h1>
 
-<form action="../../iniciar_sessio/userLogin.php" method="POST">
+<form action="{{ route('view') }}" method="POST">
+@csrf
   <label for="email">Correu electrònic:</label>
   <input type="email" id="email" name="email" required><br><br>
 
